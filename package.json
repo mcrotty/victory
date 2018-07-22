@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "victory",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "description": "Purple paddlers site",
+  "repository": "mcrotty/victory",
   "main": "index.js",
   "scripts": {
     "hugo": "gulp hugo",

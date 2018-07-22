@@ -1,9 +1,239 @@
-baseurl = "/"
-languageCode = "en-us"
+# Main config file for icon theme.
+theme = "purplepaddlers"
+#baseURL = "https://mcrotty.github.io/testpp/"
+#baseURL = "https://localhost:1313/"
+baseURL = "/"
+languageCode = "en-GB"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Slaney Purple Paddlers"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+# Metadata
+[params]
+  author = "Slaney Purple Paddlers"
+  description = "A dragon boat team based in the Wexford Boat and Tennis club, Ireland."
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/bg_sea.jpg"
+  logo = "images/logo_300_300.png"
+  title = "Slaney Purple Paddlers"
+  description = "A dragon boat team based in the Wexford Boat and Tennis club, Ireland."
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  events = "Events"
+  team = "Our Sponsers"
+  contact = "Get In Touch"
+  #services = "Services"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/2018_maritimefestival_890_593.jpg"
+    [[params.mission.images.list]]
+      img = "images/2018_boating_890_593.jpg"
+    [[params.mission.images.list]]
+      img = "images/2018_junepaddle_890_593.jpg"
+    [[params.mission.images.list]]
+      img = "images/2017_relay4life_890_593.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "who"
+    title = "About Us"
+    subtitle = "Welcome to the Slaney Purple Paddlers"
+    description = "<p>The Slaney Purple Paddlers is a dragon boat team based in the Wexford Boat and Tennis club.</p><p> The team members have one thing in common, they have been diagnosed with breast cancer.  All survivors are welcome regardless of age.  We have set up a dragon boat team to: </p> <ul> <li> get fit </li> <li> enjoy the mutual support of team mates </li> <li> raise awareness of breast cancer. </li></ul> <p> The group was established in 2017, so we are all new to the sport and no previous experience is required. We are inspired by the 150 or so breast cancer dragon boat teams worldwide.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "benefits"
+    title = "Benefits"
+    subtitle = "Benefits of Dragon boat racing"
+    description = "<p>Dragon Boating is an international venture proven fitness levels and rehabilitation after breast cancer surgery.</p><p>Evidence has shown that exercise after breast cancer is not only safe but beneficial. Apart from the obvious weight control benefit, exercise can improve mental health, boost energy levels and promote better sleep. The specific movement of paddling a dragon boat could play an important part in preventing and/or improving lymphoedema, a chronic swelling of tissues that can occur due to breast surgery and/or radiation.</p><p> Being a member of the Slaney Purple Paddlers means you can connect with other breast cancer survivors whilst engaging in a fun, physical activity. The mix of camaraderie, fresh air, positive endorphins and feeling of being involved in a new adventure all lends itself to an overall ‘feel good' experience.</p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "what"
+    title = "What we do?"
+    subtitle = ""
+    description = "<p> We train on the water once a week during Spring and Summer months.</p> <h2>When do we meet?</h2> <p> This is normally on a Tuesday evening.</p> <h2>Where?</h2><p>We are based on Wexford Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+
+# Events section
+[params.events]
+  enable = true
+  video = true
+  vidlink = "https://vimeo.com/video/233145613"
+  title = "Upcoming events"
+  description = "Events / News of interest."
+
+# Services section
+[params.services]
+  enable = false
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Services"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Web Development"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Retina Ready"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Light Speed"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Copyrighting"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Load Fast"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Customer Support"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Sponser section
+[params.sponser]
+  enable = true
+  title = "Meet our generous sponsers"
+  description = "Special thanks to:"
+
+  [[params.sponser.item]]
+    title = "Wexford Soroptimists"
+    subtitle = "Paddles and Safety gear"
+    img = "images/logo_soroptimists_400_400.jpg"
+
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_2.jpg"
+  # 
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_3.jpg"
+  # 
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_2.jpg"
+  # 
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_3.jpg"
+  # 
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_2.jpg"
+  # 
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_3.jpg"
+  # 
+  # [[params.sponser.item]]
+  #   title = "Consectetur adipisicing"
+  #   subtitle = "Web Design"
+  #   img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = false
+  title = "Tesimonials"
+  description = "See what our members say."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "One thing I have learned is that you can’t fight cancer alone. Sitting in the boat shoulder to shoulder with my fellow dragons gives me the support I need knowing that we are all in the same boat, literally."
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    #linkedin = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "All survivors are welcome regardless of age.</p><p> You can email use at slaneypurplepaddlers (at) gmail (dot) com</p><p>or connect on <a href='https://www.facebook.com/WexfordDragonBoatClub/'>facebook</a>."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2018 Slaney Purple Paddlers. All Rights Reserved. <br> Template designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a></small></p>"
+  #github = "#"
+  #twitter = "#"
+  facebook = "https://www.facebook.com/WexfordDragonBoatClub/"
+  #vine = "#"
+  #linkedin = "#"
+  #instagram = "#"

@@ -1,19 +1,3 @@
-// JS Goes here - ES6 supported
-
-// window.jQuery = $;
-// window.$ = $;
-
-import './magnific-popup-options';
-import './jquery.magnific-popup';
-import './jquery.waypoints';
-import './jquery.stellar';
-import './bootstrap';
-import './jquery.easing';
-//import $ from './jquery';
-//import main from 'main';
-
-// End of imports
-
 ;(function () {
 	
 	'use strict';

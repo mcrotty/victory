@@ -1,14 +1,15 @@
 /*
   You can use import statements to include partials:
  */
-@import "imports/reset.css";
+/*@import "imports/reset.css";*/
+@import "imports/animate.css";
+@import "imports/icomoon.css";
+@import "imports/simple-line-icons.css";
+@import "imports/magnific-popup.css";
+@import "imports/bootstrap.css";
+@import "imports/style.css";
 
 
 /*
   Or add your statements here:
  */
-body{
-  font-family: sans-serif;
-  font-size: 1em;
-  text-align: center;
-}

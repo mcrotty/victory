@@ -21,9 +21,14 @@ export default {
   plugins: [
     new webpack.ProvidePlugin({
       "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
+    }),
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery",
+        "window.jQuery": "jquery"
     })
   ],
-
+  
   context: path.join(__dirname, "src"),
   entry: {
     app: ["./js/app"]
@@ -33,5 +38,7 @@ export default {
     publicPath: "/",
     filename: "[name].js"
   },
-  externals:  [/^vendor\/.+\.js$/]
+  externals:  [/^vendor\/.+\.js$/, {jquery : 'jQuery', jQuery: 'jQuery', $: 'jQuery'}],
+  mode: 'development',
+  devtool: 'source-map'
 };
