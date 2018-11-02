@@ -15,7 +15,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 # Metadata
 [params]
   author = "Slaney Purple Paddlers"
-  description = "A dragon boat team based in the Wexford Boat and Tennis club, Ireland."
+  description = "A dragon boat team based in the Wexford Harbour Boat and Tennis club, Ireland."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
@@ -42,11 +42,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     enable = true
 
     [[params.mission.images.list]]
+      img = "images/2018_paddlers_890_593.jpg"
+    [[params.mission.images.list]]
+      img = "images/2018_killurin_890_593.jpg"
+    [[params.mission.images.list]]
       img = "images/2018_maritimefestival_890_593.jpg"
-    [[params.mission.images.list]]
-      img = "images/2018_boating_890_593.jpg"
-    [[params.mission.images.list]]
-      img = "images/2018_junepaddle_890_593.jpg"
     [[params.mission.images.list]]
       img = "images/2017_relay4life_890_593.jpg"
 
@@ -54,8 +54,8 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     weight = 1
     name = "who"
     title = "About Us"
-    subtitle = "Welcome to the Slaney Purple Paddlers"
-    description = "<p>The Slaney Purple Paddlers is a dragon boat team based in the Wexford Boat and Tennis club.</p><p> The team members have one thing in common, they have been diagnosed with breast cancer.  All survivors are welcome regardless of age.  We have set up a dragon boat team to: </p> <ul> <li> get fit </li> <li> enjoy the mutual support of team mates </li> <li> raise awareness of breast cancer. </li></ul> <p> The group was established in 2017, so we are all new to the sport and no previous experience is required. We are inspired by the 150 or so breast cancer dragon boat teams worldwide.</p>"
+    subtitle = "Welcome to the Slaney Purple Paddlers site"
+    description = "<p>The Slaney Purple Paddlers is a dragon boat team based in the Wexford Harbour Boat and Tennis club.</p><p> The team members have one thing in common, they have been diagnosed with breast cancer.  All survivors are welcome regardless of age.  We have set up a dragon boat team to: </p> <ul> <li> get fit </li> <li> enjoy the mutual support of team mates </li> <li> raise awareness of breast cancer. </li></ul> <p> The group was established in 2017, so we are all new to the sport and no previous experience is required. We are inspired by the 150 or so breast cancer dragon boat teams worldwide.</p>"
 
   [[params.mission.item]]
     weight = 2
@@ -69,7 +69,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "what"
     title = "What we do?"
     subtitle = ""
-    description = "<p> We train on the water once a week during Spring and Summer months.</p> <h2>When do we meet?</h2> <p> This is normally on a Tuesday evening.</p> <h2>Where?</h2><p>We are based on Wexford Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p> We train on the water once a week during Spring and Summer months.</p> <h2>When do we meet?</h2> <p> We have stopped for the winter, however, this is normally on a Tuesday evening during the summer months.</p> <h2>Where?</h2><p>We are based on Wexford Harbour Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 
 # Events section
