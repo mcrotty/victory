@@ -29,7 +29,7 @@ info@slaneypurplepaddlers.com
 
 ### When & Where
 
-We train on the water all year round at the Wexofrd Boat and Tennis Club, Wexford. (view map – you can click on map to enlarge it):
+We train on the water all year round at the Wexford Boat and Tennis Club, Wexford. (view map – you can click on map to enlarge it):
 
 8:30am Saturday morning
 6:30pm Tuesday evening (Spring, Summer)

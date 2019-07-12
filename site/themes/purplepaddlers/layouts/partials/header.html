@@ -34,4 +34,9 @@
 <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 <!-- Theme style -->
 <!-- <link rel="stylesheet" href="css/style.css"> -->
-<link rel="stylesheet" href="css/main.css">
+<!-- <<link rel="stylesheet" href="css/main.css"> -->
+
+{{ $stylesheet := .Site.Data.webpack.main }}
+{{ with $stylesheet.css }}
+  <link href="{{ relURL . }}" rel="stylesheet">
+{{ end }}

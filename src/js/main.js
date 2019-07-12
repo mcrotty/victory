@@ -123,7 +123,7 @@
 
 		// $(window).stellar();
 		if (!isiPhone() || isiPad() ) {
- 			$(window).stellar({ horizontalScrolling: false });
+ 			//$(window).stellar({ horizontalScrolling: false });
  		}
 
 	};

@@ -2,9 +2,9 @@
 type = "event"
 page = "event/single.html"
 title= "Maritime Festival: 24th June"
-description = "Maritime Festival to raise money to fund vital research and services of the Irish Cancer Society."
-date = "2018-06-24"
-expiryDate = "2018-06-26"
+description = "Maritime Festival. Why not drop down to see <em>Daisy</em> and say hello.  We will be there from 11:00 Sunday."
+date = "2019-06-26"
+expiryDate = "2019-08-01"
 icon = "icon-calendar"
 +++
 

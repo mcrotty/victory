@@ -1,12 +1,9 @@
-<div class="gototop js-top">
-  <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-</div>
 <!-- jQuery -->
-<script src="js/jquery.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script>  -->
 <!-- jQuery Easing -->
 <!-- <script src="js/jquery.easing.min.js"></script> -->
 <!-- Bootstrap -->
-<!-- <script src="js/bootstrap.min.js"></script> -->
+<!-- <script src="js/bootstrap.min.js"></script>  -->
 <!-- Waypoints -->
 <!-- <script src="js/jquery.waypoints.min.js"></script> -->
 <!-- Stellar Parallax -->
@@ -16,4 +13,8 @@
 <script src="js/magnific-popup-options.js"></script> -->
 <!-- Main JS -->
 <!-- <script src="js/main.js"></script> -->
-<script src="app.js"></script>
+<!-- <<script src="index.js"></script> -->
+  {{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+    <script src="{{ relURL . }}"></script>
+  {{ end }}

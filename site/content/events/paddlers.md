@@ -1,9 +1,9 @@
 +++
 type = "event"
 page = "event/single.html"
-title= "Cant wait till March"
-description = "We have stopped paddling for the winter months. See you in March"
-expiryDate = "2019-03-01"
+title= "Paddling"
+description = "Join us on Tuesday evenings at 7PM."
+expiryDate = "2019-09-20"
 icon = "icon-calendar"
 +++
 

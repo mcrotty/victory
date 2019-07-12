@@ -46,7 +46,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     [[params.mission.images.list]]
       img = "images/2018_killurin_890_593.jpg"
     [[params.mission.images.list]]
-      img = "images/2018_maritimefestival_890_593.jpg"
+      img = "images/2019_maritimefestival_890_593.jpg"
     [[params.mission.images.list]]
       img = "images/2017_relay4life_890_593.jpg"
 
@@ -54,7 +54,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     weight = 1
     name = "who"
     title = "About Us"
-    subtitle = "Welcome to the Slaney Purple Paddlers site"
+    subtitle = "Welcome to the Slaney Purple Paddlers"
     description = "<p>The Slaney Purple Paddlers is a dragon boat team based in the Wexford Harbour Boat and Tennis club.</p><p> The team members have one thing in common, they have been diagnosed with breast cancer.  All survivors are welcome regardless of age.  We have set up a dragon boat team to: </p> <ul> <li> get fit </li> <li> enjoy the mutual support of team mates </li> <li> raise awareness of breast cancer. </li></ul> <p> The group was established in 2017, so we are all new to the sport and no previous experience is required. We are inspired by the 150 or so breast cancer dragon boat teams worldwide.</p>"
 
   [[params.mission.item]]
@@ -62,14 +62,14 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "benefits"
     title = "Benefits"
     subtitle = "Benefits of Dragon boat racing"
-    description = "<p>Dragon Boating is an international venture proven fitness levels and rehabilitation after breast cancer surgery.</p><p>Evidence has shown that exercise after breast cancer is not only safe but beneficial. Apart from the obvious weight control benefit, exercise can improve mental health, boost energy levels and promote better sleep. The specific movement of paddling a dragon boat could play an important part in preventing and/or improving lymphoedema, a chronic swelling of tissues that can occur due to breast surgery and/or radiation.</p><p> Being a member of the Slaney Purple Paddlers means you can connect with other breast cancer survivors whilst engaging in a fun, physical activity. The mix of camaraderie, fresh air, positive endorphins and feeling of being involved in a new adventure all lends itself to an overall ‘feel good' experience.</p>"
+    description = "<p>Dragon Boating is an international venture proven fitness levels and rehabilitation after breast cancer surgery.</p> <p> Evidence has shown that exercise after breast cancer is not only safe, but beneficial. Exercise can <a href='https://gopaddling.info/10-reasons-paddling-is-good-for-mental-health'>improve mental health</a>, boost energy levels, promote better sleep and enhance wellbeing.</p> <p>The specific movement of paddling a dragon boat can play an important role in preventing and/or improving lympho-edema, a condition that can occur due to breast surgery and/or radiation.</p> <p>Being a member of the Slaney Purple Paddlers at Wexford Harbour Boat and Tennis Club, means that you can connect with other breast cancer survivors whilst engaging in a fun physical activity.</p>"
 
   [[params.mission.item]]
     weight = 3
     name = "what"
     title = "What we do?"
     subtitle = ""
-    description = "<p> We train on the water once a week during Spring and Summer months.</p> <h2>When do we meet?</h2> <p> We have stopped for the winter, however, this is normally on a Tuesday evening during the summer months.</p> <h2>Where?</h2><p>We are based on Wexford Harbour Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p> We train on the water once a week during Spring and Summer months.</p> <h2>When do we meet?</h2> <p> This is normally on a Tuesday evening at 19:00 during the summer months.</p> <h2>Where?</h2><p>We are based on Wexford Harbour Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 
 # Events section
@@ -230,7 +230,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2018 Slaney Purple Paddlers. All Rights Reserved. <br> Template designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a></small></p>"
+  note = "<p><small>&copy; 2019 Slaney Purple Paddlers. All Rights Reserved. <br> Template designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a></small></p>"
   #github = "#"
   #twitter = "#"
   facebook = "https://www.facebook.com/WexfordDragonBoatClub/"
