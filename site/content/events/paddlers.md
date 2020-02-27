@@ -1,10 +1,10 @@
 +++
 type = "event"
 page = "event/single.html"
-title= "Paddling"
-description = "Join us on Tuesday evenings at 7PM."
-expiryDate = "2019-09-20"
+title= "Pre season warmup"
+description = "Join us on training on Wednesday evenings at 7PM."
+expiryDate = "2020-04-01"
 icon = "icon-calendar"
 +++
 
-Stopped paddling.
+Training for paddling.
