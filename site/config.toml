@@ -73,7 +73,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "what"
     title = "What we do?"
     subtitle = ""
-  description = "<p> We normally train on the water once a week during Spring and Summer months. However die to COVID-19 we have suspended training.</p> <h2>When do we meet?</h2> <p> This is normally on a Tuesday evening at 19:00 during the summer months.</p> <h2>Where?</h2><p>We are based on Wexford Harbour Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+  description = "<p> We normally train on the water once a week during Spring and Summer months. However due to COVID-19 we have suspended training.</p> <h2>When do we meet?</h2> <p> This is normally on a Tuesday evening at 19:00 during the summer months.</p> <h2>Where?</h2><p>We are based on Wexford Harbour Boat and Tennis club, in the heart of Wexford.</p>  <br/><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 
 # Events section
