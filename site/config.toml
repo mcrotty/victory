@@ -45,13 +45,15 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     enable = true
 
     [[params.mission.images.list]]
+      img = "images/2021_happynewyear_890_593.jpg"
+    [[params.mission.images.list]]
       img = "images/2018_paddlers_890_593.jpg"
     [[params.mission.images.list]]
       img = "images/2018_killurin_890_593.jpg"
     [[params.mission.images.list]]
       img = "images/2019_maritimefestival_890_593.jpg"
-    [[params.mission.images.list]]
-      img = "images/2017_relay4life_890_593.jpg"
+    #[[params.mission.images.list]]
+    #  img = "images/2017_relay4life_890_593.jpg"
 
   [[params.mission.item]]
     weight = 1
