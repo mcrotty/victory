@@ -236,7 +236,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2019 Slaney Purple Paddlers. All Rights Reserved. <br> Template designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a></small></p>"
+  note = "<p><small>&copy; 2021 Slaney Purple Paddlers. All Rights Reserved. <br> Template designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a></small></p>"
   #github = "#"
   #twitter = "#"
   facebook = "https://www.facebook.com/WexfordDragonBoatClub/"
